@@ -27,13 +27,17 @@
   color: #d3d3d3;
 }
 
-.data.tags a[href$="has%20best%20gif"]:hover:after, .data.tags a[href$="https://tenor.com/view/anime-bokura-wa-minna-kawaisou-gifs-reaction-anime-gifs-to-communicate-cute-gif-14597716"]:hover:after {
+.data.tags a[href$="has%20best%20gif"]:hover:after {
  content: url(https://raw.githubusercontent.com/TheGreatDrRodneyMcKay/MAL-CSS/master/Ritsuel.gif);
+    display: block;
+}
+
+ .data.tags a[href$="https%3A%2F%2Ftenor.com%2Fview%2Fanime-bokura-wa-minna-kawaisou-gifs-reaction-anime-gifs-to-communicate-cute-gif-14597716"]:hover {
+   content: url(https://raw.githubusercontent.com/TheGreatDrRodneyMcKay/MAL-CSS/master/Ritsuel.gif);
     display: block;
 }
 
 .data.tags a[href$="has%20best%20gif"] {
 	color: #ffb6c1
 }
-
 

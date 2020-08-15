@@ -1,0 +1,28 @@
+.data.tags a[href$="calm"] {
+  color: #63d3ff;
+}
+
+.data.tags a[href$="cute"] {
+  color: #ffb6c1;
+}
+/* ' = %27 */
+.data.tags a[href$="they%20had%20us%20in%20the%20first%20half%20not%20gonna%20lie"] {
+  color: #b22222;
+}
+
+.data.tags a[href$="OP"] {
+  color: #00ff55;
+}
+
+
+.data.tags a[href$="fire"] {
+  color: #e25822;
+}
+
+.data.tags a[href$="making%20me%20dislike%20the%20franchise"] {
+  color: #ff0000;
+}
+
+.data.tags a[href$="childhood"] {
+  color: #d3d3d3;
+}

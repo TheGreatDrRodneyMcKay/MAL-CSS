@@ -1,0 +1,109 @@
+/* Modified by Dr. Rodney McKay */
+
+/* Uses the Shelter Style layout for modern CSS (V1) by Takana_no_Hana
+
+/* some imports */
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
+@import "https://dl.dropboxusercontent.com/s/matkhrm2ng2xdu2/manga%20before.css";
+
+@\import "https://dl.dropboxusercontent.com/s/cvop0e358e05oo6/ShelterV1.css";
+
+/* V2 doesn't work anymore @\import "https://dl.dropboxusercontent.com/u/118667597/ShelterCSS/ShelterV2.css"; */
+
+
+
+/*Change your backgrounds here. previous one: http://i.imgur.com/g5MO4N2.jpg */
+/*CURRENTLY WATCHING */
+body[data-query*='"status":1'] {
+background-image: url("http://i.imgur.com/3S3pocD.png");
+}
+/*COMPLETED*/
+body[data-query*='"status":2'] {
+background-image: url("http://i.imgur.com/UCrg5tp.png");
+}
+/*ON HOLD*/
+body[data-query*='"status":3'] {
+background-image: url("http://i.imgur.com/9V2B2vk.png");
+}
+/*DROPPED*/
+body[data-query*='"status":4'] {
+background-image: url("http://i.imgur.com/BIKjzU4.png");
+}
+/*PLANNED*/
+body[data-query*='"status":6'] {
+background-image: url("http://i.imgur.com/iJKGmtO.png");
+}
+/*ALL*/
+body[data-query*='"status":7'] {
+background-image: url("http://i.imgur.com/I7zCCPH.png");
+}
+
+/*
+**Your desired avatar
+**Note that the best resolution is 120px * 120px
+*/
+.cover-block::after {background-image: url("http://i.imgur.com/LSvsJMC.gif");}
+
+/* Your name that displays next to the avatar
+** Replace content with "display:none;" if you want to get rid of it
+*/
+.cover-block::before {
+content: DrRodneyMcKay's Anime List";
+}
+
+footer::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;/*calc(0% + 35px);*/
+  background: url(http://i.imgur.com/ea0NmJM.png) no-repeat bottom left;
+  background-size: 100%;
+  pointer-events: none;
+z-index: 3; }
+
+#copyright::after {
+	content: "designed by Dr. Rodney McKay"
+}
+
+.data.tags a[href$="calm"] {
+  color: #63d3ff;
+}
+
+
+.data.tags a[href$="cute"] {
+  color: #ffb6c1;
+}
+
+.data.tags a[href$="they%20had%20us%20in%20the%20first%20half%20not%20gonna%20lie"] {
+  color: #b22222;
+}
+
+.data.tags a[href$="OP"] {
+  color: #00ff55;
+}
+
+
+.data.tags a[href$="fire"] {
+  color: #e25822;
+}
+
+
+.data.tags a[href$="making%20me%20dislike%20the%20franchise"] {
+  color: #ff0000;
+}
+
+.data.tags a[href$="childhood"] {
+  color: #d3d3d3;
+}
+
+.data.tags a[href$="has%20best%20gif"]:hover:after .data.tags a[href$="https://tenor.com/view/anime-bokura-wa-minna-kawaisou-gifs-reaction-anime-gifs-to-communicate-cute-gif-14597716"]:hover:after {
+ content: url(https://raw.githubusercontent.com/TheGreatDrRodneyMcKay/MAL-CSS/master/Ritsuel.gif);
+    display: block;
+}
+
+.data.tags a[href$="has%20best%20gif"] {
+	color: #ffb6c1
+}

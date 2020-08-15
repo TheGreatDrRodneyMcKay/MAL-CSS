@@ -1,0 +1,211 @@
+/* -----------------------------------------------------------------------------
+  ___ _  _ ___ ___  ___  _   _ ___   _   ___ ___ _____ _  _ ___ __  __ ___ ___   
+ / __| || |_ _| _ \/ _ \| | | / __| /_\ / __|_ _|_   _| || | __|  \/  | __/ __|  
+ \__ \ __ || ||   / (_) | |_| \__ \/ _ \ (_ || |  | | | __ | _|| |\/| | _|\__ \  
+ |___/_||_|___|_|_\\___/ \___/|___/_/ \_\___|___| |_| |_||_|___|_|  |_|___|___/  
+ --------------------------------------------------------------------------------
+ - requested by masamilow -------------------------------------------------------
+ --------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------- */
+ 
+@\import "https://malcat-gen.appspot.com/series?preset=more";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+@\import "https://dl.dropboxusercontent.com/s/hquo3rbkyitvw6o/violet-icon-topbar.css";
+@\import "https://fonts.googleapis.com/css?family=Varela";
+@\import "https://malcat-gen.appspot.com/series?preset=more";
+
+body
+{background-image: url(https://dl.dropboxusercontent.com/s/7ieqqu4ivzmgr75/nisekoi-chitoge.jpg);
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: #fff;
+font-family: Varela;
+font-size: 15px;
+font-variant: small-caps;
+font-weight: normal !important;}
+
+a
+{color: #ffe6ff;
+text-decoration: none;
+text-shadow: 1px 1px 2px rgba(0,0,0,1);}
+
+strong
+{font-weight: normal !important;}
+
+#list_surround
+{width: 700px;
+left: 150px;
+position: absolute;}
+
+.td1, .td2
+{background-color: rgba(110,84,193,0.6);
+font-weight: normal !important;}
+
+.table_header, .category_totals
+{background-color: rgba(110,84,193,0.9);
+font-weight: normal !important;
+height: 20px;}
+
+.category_totals
+{border-radius: 0 0 8px 8px;
+font-size: 12px;
+text-align: center;}
+
+.table_header:first-of-type
+{border-radius: 8px 0 0 0;}
+
+.table_header:last-of-type
+{border-radius: 0 8px 0 0;}
+
+.table_header:nth-of-type(2)
+{padding-left: 42px;}
+
+.table_headerLink
+{color: #fff !important;}
+
+.header_title span
+{display: none;}
+.header_title
+{height: 52px;}
+
+.header_cw
+{background-image: url(https://dl.dropboxusercontent.com/s/64wv3vwp092v1l2/nisekoi-chitoge-watching.png);
+background-position: center;
+background-repeat: no-repeat;}
+.header_completed
+{background-image: url(https://dl.dropboxusercontent.com/s/mg6enn6nseoxxdz/nisekoi-chitoge-completed.png);
+background-position: center;
+background-repeat: no-repeat;}
+.header_onhold
+{background-image: url(https://dl.dropboxusercontent.com/s/d3heh4vqgi0ruhk/nisekoi-chitoge-onhold.png);
+background-position: center;
+background-repeat: no-repeat;}
+.header_dropped
+{background-image: url(https://dl.dropboxusercontent.com/s/xed366rr1f68hid/nisekoi-chitoge-dropped.png);
+background-position: center;
+background-repeat: no-repeat;}
+.header_ptw
+{background-image: url(https://dl.dropboxusercontent.com/s/n9ey11vtdknfon7/nisekoi-chitoge-ptw.png);
+background-position: center;
+background-repeat: no-repeat;}
+
+tr:hover [class^=td]
+{background-color: rgba(110,84,193,0.9);
+-webkit-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;}
+
+tr:hover [class^=td] .animetitle
+{letter-spacing: 1px;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
+
+#list_surround table:first-of-type td
+{display: block;
+position: fixed;
+right: 20px;
+height: 22px;
+width: 120px;
+padding: 0 10px 0 10px;
+background-color: rgba(110,84,193,0.6);}
+
+#list_surround table:first-of-type td:first-of-type a
+{font-size: 0px !important;
+color: transparent !important;}
+
+#list_surround table:first-of-type td:first-of-type a:before
+{content: "Watching";
+font-size: 15px !important;
+color: #ffe6ff !important;}
+
+#list_surround table:first-of-type a:hover
+{letter-spacing: 1px;}
+
+#list_surround table:first-of-type td:first-of-type
+{bottom: 130px;}
+#list_surround table:first-of-type td:nth-of-type(2)
+{bottom: 108px;}
+#list_surround table:first-of-type td:nth-of-type(3)
+{bottom: 86px;}
+#list_surround table:first-of-type td:nth-of-type(4)
+{bottom: 64px;}
+#list_surround table:first-of-type td:nth-of-type(5)
+{bottom: 42px;}
+#list_surround table:first-of-type td:last-of-type
+{bottom: 20px;}
+
+#grand_totals, #copyright
+{background-color: rgba(110,84,193,0.9);
+font-size: 12px;
+text-align: center;
+height: 20px;
+line-height: 20px;
+border-radius: 8px;}
+
+::-webkit-scrollbar
+{width:10px;
+background-color: #ffffff;}
+ 
+::-webkit-scrollbar-thumb:vertical
+{background-color: rgba(110,84,193,0.6);
+border: 2px solid #fff;
+border-radius: 4px;}   
+
+::-webkit-scrollbar-thumb:vertical:hover
+{background-color: rgba(110,84,193,0.9);}
+
+/* THUMBNAIL SETTINGS */
+.hide
+{height:50px;
+width:30px;
+margin-left:33px;
+margin-top:-57px;
+border:1px solid #FFFFFF;
+background-color:rgba(110,84,193,0.7);
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border-bottom-left-radius:1px;
+border-bottom-right-radius:4px;
+border-top-left-radius:4px;
+border-top-right-radius:1px;
+display:inline-block !important;
+position: absolute;}
+
+/* THUMBNAIL HOVER SETTING */
+.hide:hover
+{margin-left:-142px;
+padding-right:100px;
+padding-top:150px !important;
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border-bottom-left-radius:15px;
+border-bottom-right-radius:5px;
+border-top-left-radius:5px;
+border-top-right-radius:15px;
+box-shadow: 4px 4px 5px 0px rgba(110,84,193,0.75);
+position:absolute;
+z-index:1;}
+
+/* THUMBNAIL HOVER FLICKER FIX */
+.hide:hover:after
+{background: transparent;
+content: " ";
+height: 75px;
+left: 0;
+position: absolute;
+top: 0;
+width: 210px;
+z-index: 20;}
+
+/*ANIMATION FOR ZOOM */
+*
+{-webkit-transition:all 0.25s ease-in-out;
+transition:all 0.25s ease-in-out;}
+
+/*ROW WIDTH AND SPACING */
+.td1:nth-of-type(2), .td2:nth-of-type(2)
+{height: 62px;
+padding-left: 42px;}
